@@ -12,13 +12,14 @@
 # GNU Lesser General Public License for more details.
 #
 # You should have received a copy of the GNU Lesser General Public License
-# along with this programe.  If not, see <http://www.gnu.org/licenses/>.
+# along with this programe.  If not, see <https://www.gnu.org/licenses/>.
 
-# Initial code got from http://djangosnippets.org/users/danielroseman/
+# Initial code inspired by https://djangosnippets.org/users/danielroseman/
 
 import codecs
 import os
-from setuptools import setup, find_packages
+
+from setuptools import find_packages, setup
 
 
 def read(*rnames):
@@ -31,7 +32,7 @@ def read(*rnames):
 
 setup(
     name="django-multiselectfield",
-    version="0.1.12",
+    version="0.1.13",
     author="Pablo Martin",
     author_email="goinnn@gmail.com",
     description="Django multiple select field",
@@ -40,16 +41,10 @@ setup(
         'Development Status :: 4 - Beta',
         'Framework :: Django',
         'License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
     ],
     license="LGPL 3",
     keywords="django,multiple,select,field,choices",
